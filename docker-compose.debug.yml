@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  auragatewayapi:
+    image: auragatewayapi
+    build:
+      context: .
+      dockerfile: aura.gateway.api/Dockerfile
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw
