@@ -21,6 +21,7 @@ namespace AccountMicroservice.Controllers
             SupportService = supportService;
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse<string>), StatusCodes.Status400BadRequest)]

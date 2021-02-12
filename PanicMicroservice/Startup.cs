@@ -76,7 +76,7 @@ namespace PanicMicroservice
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseHttpsRedirection();
             app.UseDeveloperExceptionPage();
 

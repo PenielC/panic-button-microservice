@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Peniel-Repos\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj": {}
   },
   "projects": {
-    "C:\\Peniel-Repos\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj",
         "projectName": "aura.gateway.api",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\aura.gateway.api\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\aura.gateway.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

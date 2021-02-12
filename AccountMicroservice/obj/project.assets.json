@@ -8755,11 +8755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
       "projectName": "AccountMicroservice",
-      "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
       "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-      "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\obj\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8778,17 +8778,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj": {
-              "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj"
+            "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj"
             },
-            "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj": {
-              "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj"
+            "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj"
             },
-            "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj"
+            "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj"
             },
-            "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj": {
-              "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj"
+            "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj"
             }
           }
         }

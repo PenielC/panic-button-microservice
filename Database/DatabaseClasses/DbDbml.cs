@@ -48,6 +48,8 @@ namespace Database
         public bool isActive { get; set; }     
         public string latitude { get; set; }
         public string longitude { get; set; }
+        public int profileId { get; set; }
+        public int supportId { get; set; }
     }
     public class PanicAlertResolution : BaseORM
     {
@@ -55,7 +57,7 @@ namespace Database
         public int alertResolutionId { get; set; }
         public int alertId { get; set; }
         public int supportId { get; set; }
-        public bool resolutionStatement { get; set; }
+        public string resolutionStatement { get; set; }
     }
 
     public class Address : BaseORM

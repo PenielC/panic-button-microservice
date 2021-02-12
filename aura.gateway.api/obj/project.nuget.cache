@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eaHjBhMBZdpjYsOfj8nf7sqJAUH3OtHwT+xO9W1y+HSPUeVO4HJ8bf/p/Id2xTJuPjGIewya/MdNpC2yzdw/zA==",
+  "dgSpecHash": "J68VvaxBYHB46HXFAb3uHsU0dneCqs0x6M7I4Q7BBsSGAN2hhQm3oRmCCTReuZDui0Qp011QX8SOEwRM7gFSjw==",
   "success": true,
-  "projectFilePath": "C:\\Peniel-Repos\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\aura.gateway.api\\aura.gateway.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pchingombe\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\pchingombe\\.nuget\\packages\\kros.utils\\1.10.1\\kros.utils.1.10.1.nupkg.sha512",

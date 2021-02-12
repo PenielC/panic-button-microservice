@@ -71,8 +71,11 @@ namespace AccountMicroservice.Controllers
 
         private LoginResponse loginResponseBuild(LoginResponse user)
         {
-            user.token = TokenGen.GenerateTokenJWT($"{user.userId.Encrypt()}#{user.email.Encrypt()}#{user.username.Encrypt()}", Config.JWTISSUER, Config.JWTKEY, "user");
+            user.token = TokenGen.GenerateTokenJWT($"{user.userId.Encrypt()}#{user.email.Encrypt()}#{user.username.Encrypt()}#{user.profileId}", Config.JWTISSUER, Config.JWTKEY, "user");
             return user;
+
+            //user.token = TokenGen.GenerateTokenJWT($"{user.userId.Encrypt()}#{user.email.Encrypt()}#{user.username.Encrypt()}#{user.employeeId}#{user.clientId}", Config.JWTISSUER, Config.JWTKEY, "user");
+            //return user;
         }
        
     }

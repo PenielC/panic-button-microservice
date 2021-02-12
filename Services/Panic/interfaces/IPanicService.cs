@@ -1,4 +1,5 @@
 ﻿using Database;
+using Helper.Request;
 using LuciaTech.Repository;
 using LuciaTech.Service;
 using System;
@@ -10,6 +11,6 @@ namespace Services.Panic.interfaces
 {
     public interface IPanicService : IGenericService<PanicAlerts>
     {
-        bool CreatePanicAlertResolution(PanicAlertResolution model);
+        bool CreatePanicAlertResolution(PanicAlertResolutionRequest model);
     }
 }

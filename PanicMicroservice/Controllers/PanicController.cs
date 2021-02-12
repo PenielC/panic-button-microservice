@@ -51,7 +51,7 @@ namespace PanicMicroservice.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse<string>), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CreatePanicAlertResolution(PanicAlertResolution model)
+        public async Task<IActionResult> CreatePanicAlertResolution(PanicAlertResolutionRequest model)
         {
             try
             {
@@ -74,7 +74,7 @@ namespace PanicMicroservice.Controllers
         [HttpPut]
         [ProducesResponseType(typeof(ApiResponse<PanicAlerts>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse<string>), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> TakeOnPanicAlert(PanicAlerts model)
+        public async Task<IActionResult> TakeOnPanicAlert(CreatePanicAlertRequest model)
         {
             try
             {
@@ -104,28 +104,24 @@ namespace PanicMicroservice.Controllers
                 isActive = model.isActive,
                 latitude = model.latitude,
                 longitude = model.longitude,
-                create_at = DateTime.Now
+                create_at = DateTime.Now,
+                profileId = model.profileId.DeCryptId(),
+                supportId = 0
             };
         }
 
-        private async Task<PanicAlerts> buildUpdate(PanicAlerts model)
+        private async Task<PanicAlerts> buildUpdate(CreatePanicAlertRequest model)
         {
-            var panicAlert = await PanicService.GetByIdAsync(model.alertId);
-            return new PanicAlerts
-            {
-                alertId = panicAlert.alertId,
-                alertType = panicAlert.alertType,
-                panicStatus = PanicStatus.INPROGRESS.ToString(),
-                isActive = true,
-                latitude = panicAlert.latitude,
-                longitude = panicAlert.longitude,
-                updated_at = DateTime.Now
-            };
+            var panicAlert = await PanicService.GetByIdAsync(model.alertId.DeCryptId());
+            panicAlert.panicStatus = PanicStatus.INPROGRESS.ToString();
+            panicAlert.updated_at = DateTime.Now;
+            panicAlert.supportId = model.supportId.DeCryptId();
+            return panicAlert;
         }
 
-        private async Task<PanicAlerts> buildPanicResolution(PanicAlertResolution model)
+        private async Task<PanicAlerts> buildPanicResolution(PanicAlertResolutionRequest model)
         {
-            var panicAlert = await PanicService.GetByIdAsync(model.alertId);
+            var panicAlert = await PanicService.GetByIdAsync(model.alertId.DeCryptId());
             panicAlert.panicStatus = PanicStatus.RESOLVED.ToString();
             panicAlert.isActive = false;
             panicAlert.updated_at = DateTime.Now;

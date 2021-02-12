@@ -1,4 +1,5 @@
 ﻿using Database;
+using Helper.Request;
 using LuciaTech.Repository;
 using LuciaTech.Service;
 using Repository.Panic.interfaces;
@@ -15,7 +16,7 @@ namespace Services.Panic.implementation
             PanicRepository = panicRepository;
         }
 
-        public bool CreatePanicAlertResolution(PanicAlertResolution model) 
+        public bool CreatePanicAlertResolution(PanicAlertResolutionRequest model) 
         {
             return PanicRepository.CreatePanicAlertResolution(model);
         }

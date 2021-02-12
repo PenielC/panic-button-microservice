@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Peniel-Repos\\panic-button-microservice\\Gateway\\Gateway.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Gateway\\Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Peniel-Repos\\panic-button-microservice\\Gateway\\Gateway.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Gateway\\Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\Gateway\\Gateway.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Gateway\\Gateway.csproj",
         "projectName": "Gateway",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Gateway\\Gateway.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Gateway\\Gateway.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\Gateway\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

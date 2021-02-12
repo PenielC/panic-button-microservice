@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj": {}
   },
   "projects": {
-    "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
         "projectName": "AccountMicroservice",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\AccountMicroservice.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\AccountMicroservice\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\AccountMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,17 +30,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj"
               },
-              "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj"
               },
-              "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj"
               },
-              "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\Database\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -239,14 +239,14 @@
         }
       }
     },
-    "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -265,11 +265,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Database\\Database.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Database\\Database.csproj"
               },
-              "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Helper\\Helper.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Helper\\Helper.csproj"
               }
             }
           }
@@ -314,14 +314,14 @@
         }
       }
     },
-    "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj": {
+    "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -340,8 +340,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj"
+              "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\tmp\\panic-button-microservice\\Repository\\Repository.csproj"
               }
             }
           }

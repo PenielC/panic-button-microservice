@@ -2882,10 +2882,7 @@
         },
         "runtime": {
           "bin/placeholder/Repository.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -8607,37 +8604,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pchingombe\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/pchingombe/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj",
+      "projectUniqueName": "/Users/pchingombe/Desktop/tmp/panic-button-microservice/Services/Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\pchingombe\\.nuget\\packages\\",
-      "outputPath": "C:\\Peniel-Repos\\panic-button-microservice\\Services\\obj\\",
+      "projectPath": "/Users/pchingombe/Desktop/tmp/panic-button-microservice/Services/Services.csproj",
+      "packagesPath": "/Users/pchingombe/.nuget/packages/",
+      "outputPath": "/Users/pchingombe/Desktop/tmp/panic-button-microservice/Services/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\pchingombe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/pchingombe/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Peniel-Repos\\panic-button-microservice\\Repository\\Repository.csproj"
+            "/Users/pchingombe/Desktop/tmp/panic-button-microservice/Repository/Repository.csproj": {
+              "projectPath": "/Users/pchingombe/Desktop/tmp/panic-button-microservice/Repository/Repository.csproj"
             }
           }
         }
@@ -8667,14 +8658,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
       }
     }
   }
